@@ -2,7 +2,6 @@
 ### Software QA Automation Engineer 
 
 <div>
-  <a href="mailto:ofguvelii@gmail.com"><img src="https://img.shields.io/badge/Email-ofguvelii%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/ömergüveli"><img src="https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/omerguveli"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/Location-Üsküdar, %20İstanbul-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location">
