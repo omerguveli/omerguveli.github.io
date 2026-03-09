@@ -1,7 +1,7 @@
 export const data = {
   person: {
     name: 'Ömer Faruk Güveli',
-    title: 'Yazılım Test Mühendisi | Full-Stack Developer',
+    title: 'Yazılım Test Mühendisi',
     location: 'Üsküdar, İstanbul',
     email: 'ofguvelii@gmail.com',
     linkedin: 'https://linkedin.com/in/ömergüveli',
