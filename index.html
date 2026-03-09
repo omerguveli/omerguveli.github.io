@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ömer Faruk Güveli | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="glass-nav">
+            <div class="container">
+                <div class="logo">ÖFG<span>.</span></div>
+                <ul class="nav-links">
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#skills">Yetenekler</a></li>
+                    <li><a href="#experience">Deneyim</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="glitch-text" id="hero-name"></h1>
+                    <p class="subtitle" id="hero-title"></p>
+                    <div class="hero-btns">
+                        <a href="#experience" class="btn btn-primary">Deneyimleri Gör</a>
+                        <a href="#contact" class="btn btn-secondary">İletişime Geç</a>
+                    </div>
+                </div>
+            </div>
+            <div class="animated-bg"></div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Özet</h2>
+                <div class="glass-card about-card">
+                    <p id="about-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Teknik Yetkinlikler</h2>
+                <div class="skills-grid">
+                    <div class="glass-card skill-category" id="skills-qa">
+                        <h3>Test & QA</h3>
+                        <div class="skill-tags"></div>
+                    </div>
+                    <div class="glass-card skill-category" id="skills-prog">
+                        <h3>Programlama</h3>
+                        <div class="skill-tags"></div>
+                    </div>
+                    <div class="glass-card skill-category" id="skills-devops">
+                        <h3>DevOps & Araçlar</h3>
+                        <div class="skill-tags"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Deneyim</h2>
+                <div class="timeline" id="experience-timeline"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-info">
+                        <h3>İletişim</h3>
+                        <p id="footer-location"></p>
+                        <p id="footer-email"></p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#" id="link-linkedin" target="_blank">LinkedIn</a>
+                        <a href="#" id="link-github" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Ömer Faruk Güveli. Bütün hakları saklıdır.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
